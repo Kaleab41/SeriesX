@@ -1,0 +1,94 @@
+body {
+  margin: 0%;
+}
+
+.headersvg {
+  max-width: 100%;
+  max-height: 90%;
+}
+
+.Character {
+  margin-top: -530px;
+  margin-left: 40%;
+  max-height: 600px;
+  max-width: 900px;
+}
+.HeaderText {
+  font-family: "Staatliches", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 65px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -700px;
+}
+.discription {
+  list-style-type: none;
+  font-family: "Staatliches", cursive;
+  color: black;
+  font-size: 30px;
+  display: flex;
+  padding-left: 30px;
+}
+.SocialMedia img {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 5%;
+  color: blue;
+}
+.SocialMedia {
+  text-align: center;
+}
+button {
+  transition: all 0.5s ease;
+  color: rgb(255, 255, 255);
+  border: 5px solid rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2;
+  font-size: 17px;
+  background-color: transparent;
+  padding: 0px;
+  /* outline: none; */
+  border-radius: 4px;
+}
+button {
+  position: absolute;
+  margin-left: 1700px;
+  margin-top: -220px;
+}
+button:hover {
+  color: #001f3f;
+  background-color: rgb(255, 255, 255);
+}
+/* li {
+  
+  text-align: center;
+  padding: 1px;
+  text-decoration: none;
+} */
+
+/* @media only screen and (min-width: 375px) {
+  .HeaderText {
+    top: 0.5%;
+    font-size: 70px;
+  }
+  .headersvg {
+    width: 100%;
+    height: auto;
+    padding-top: 0%;
+    position: relative;
+  }
+
+  .discription {
+    list-style-type: none;
+    font-family: "Staatliches", cursive;
+    color: black;
+    font-size: 10px;
+    display: flex;
+    justify-content: start;
+  }
+} */
